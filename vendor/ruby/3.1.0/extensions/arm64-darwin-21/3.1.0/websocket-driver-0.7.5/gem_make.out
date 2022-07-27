@@ -1,0 +1,15 @@
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/colleen/.rbenv/versions/3.1.1/bin/ruby -I /Users/colleen/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220726-71765-98lha.rb extconf.rb
+creating Makefile
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20220726-71765-vmpzyv

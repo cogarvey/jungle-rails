@@ -1,0 +1,19 @@
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+/Users/colleen/.rbenv/versions/3.1.1/bin/ruby -I /Users/colleen/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220726-71765-nae4hg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= clean
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\=
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20220726-71765-gd7bzf/byebug

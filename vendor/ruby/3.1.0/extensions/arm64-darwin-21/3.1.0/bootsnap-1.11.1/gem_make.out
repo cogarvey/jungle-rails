@@ -1,0 +1,15 @@
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+/Users/colleen/.rbenv/versions/3.1.1/bin/ruby -I /Users/colleen/.rbenv/versions/3.1.1/lib/ruby/3.1.0 -r ./siteconf20220726-71765-is141b.rb extconf.rb
+creating Makefile
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/colleen/lighthouse/week9/jungle-rails/vendor/ruby/3.1.0/gems/bootsnap-1.11.1/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220726-71765-t3kurm/bootsnap

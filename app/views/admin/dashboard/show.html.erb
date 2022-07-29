@@ -1,5 +1,5 @@
 <div>
-<h2>Total products in store: <%= @products.count %> </h2>
+<h2>Total products in store: <%= link_to(@products.count, admin_products_path) %> </h2>
 </div>
 
-<h2>Total categories in store: <%= @categories.count %> </h2>
+<h2>Total categories in store: <%= link_to(@categories.count, admin_categories_path) %> </h2>

@@ -20,7 +20,7 @@ RSpec.describe User, type: :model do
       expect(user).to be_invalid
       expect(user.errors[:email]).to include("can't be blank")
   
-      user.email = 'test@test.com' # valid state
+      user.email = 'test@test.com'
       user.valid?
       expect(user.errors[:email]).not_to include("can't be blank")
     end
@@ -30,7 +30,7 @@ RSpec.describe User, type: :model do
       expect(user).to be_invalid
       expect(user.errors[:first_name]).to include("can't be blank")
   
-      user.first_name = 'first_name' # valid state
+      user.first_name = 'first_name' 
       user.valid? 
       expect(user.errors[:first_name]).not_to include("can't be blank")
     end
@@ -40,7 +40,7 @@ RSpec.describe User, type: :model do
       expect(user).to be_invalid
       expect(user.errors[:last_name]).to include("can't be blank")
   
-      user.last_name = 'last_name' # valid state
+      user.last_name = 'last_name'
       user.valid? 
       expect(user.errors[:last_name]).not_to include("can't be blank")
     end
@@ -128,4 +128,3 @@ RSpec.describe User, type: :model do
       expect(user).to be(nil)
     end
 end
->>>>>>> feature/user-specs
